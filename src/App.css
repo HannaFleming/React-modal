@@ -1,0 +1,33 @@
+body{
+  padding:0;
+  margin:0;
+}
+
+.App{
+  width:100vw;
+  hight:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-family:"Roboto";
+}
+
+.openModalBtn {
+  background-color:black;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+  border:none;
+  padding: 10px 40px 10px;
+  border-radius:10px;
+  cursor:pointer;
+}
+.openModalBtn:hover {
+  background-color:#ffbf00;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+  border:none;
+  padding: 10px 40px 10px;
+  border-radius:10px;
+}
